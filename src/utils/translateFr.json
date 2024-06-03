@@ -1,0 +1,211 @@
+{
+  "home": "Accueil",
+  "products": "Produits",
+  "blog": "Blog",
+  "help": "Aide",
+  "account": "MON COMPTE",
+  "productItems": {
+    "housingInsurance": "Assurance Habitation",
+    "carInsurance": "Assurance Auto",
+    "pnoInsurance": "Assurance PNO",
+    "healthInsurance": "Assurance Santé",
+    "petInsurance": "Assurance Animaux",
+    "loanInsurance": "Assurance Emprunteur",
+    "alarmMonitoring": "Alarme & Télésurveillance"
+  },
+  "productDescriptions": {
+    "housingInsurance": "Locataire ou propriétaire",
+    "carInsurance": "Pour vos véhicules et ses conducteurs",
+    "pnoInsurance": "Propriétaire non occupant",
+    "healthInsurance": "Pour vous, votre conjoint et toute la famille",
+    "petInsurance": "Pour votre chien ou votre chat",
+    "loanInsurance": "Changez et économisez jusqu'à 20 000$",
+    "alarmMonitoring": "Pour protéger votre foyer des intrusions"
+  },
+  "copyrights":"Copyright © 2024 Acheel. Tous droits réservés.",
+  "tarifTitle": "L'assurance ",
+  "tarifTitle2":"simple et accessible",
+  "tarifSubtitle": "Vous trouvez le monde de l’assurance complexe et frustrant ? Nous aussi. Découvrez Acheel, la nouvelle assurance qui vous ressemble.",
+  "tarifRates": "Consultez nos tarifs",
+  "tarifComment": "Déjà assuré(e) ? No Stress! On s’occupe de résilier votre ancien contrat.",
+  "tarifPress": "Ils parlent de nous",
+  "insuranceTypes": {
+    "habitation": "Habitation",
+    "auto": "Auto",
+    "sante": "Santé",
+    "chienChat": "Chien - Chat",
+    "proprietaire": "Propriétaire",
+    "emprunteur": "Emprunteur",
+    "alarme": "Alarme et Télésurveillance",
+    "nonOccupant": "Non occupant",
+    "newLabel": "NOUVEAU"
+  },
+  "featuresTitle": "c'est l'assurance...",
+  "features": {
+    "simple": {
+      "title": "Simple et rapide",
+      "description": "Souscrivez en ligne en seulement quelques clics et signez vos documents sur votre smartphone.",
+      "bold": "Fini la paperasse, ici c’est 100% digital."
+    },
+    "flexible": {
+      "title": "Flexible et claire",
+      "description": "Oubliez le bla-bla habituel des assureurs. Acheel s’adapte à vos besoins et vous offre",
+      "bold": "les garanties les plus claires."
+    },
+    "sansFrais": {
+      "title": "Sans frais cachés",
+      "description": "Du début à la fin, vous savez combien vous payez. Fini les mauvaises surprises.",
+      "bold": "Notre maître mot c’est la transparence !"
+    },
+    "toujours": {
+      "title": "Toujours à vos côtés",
+      "description": "Une équipe d’experts pour vous assister à tout moment par chat, email ou téléphone.",
+      "bold": "C’est quand et comme vous voulez !"
+    }
+  },
+  "commentsTitle": "On ne va pas vous dire qu’on est les meilleurs, ",
+  "commentsTitle2":"mais eux oui.",
+    "comments": [
+    {
+      "name": "CHRISTOPHE",
+      "comment": "La folie !!! 5 minutes pour économiser 30€ par mois j’ai pas trouvé mieux! Tout est modulable et bien expliqué. Je recommande !",
+      "rating": 5
+    },
+    {
+      "name": "BÉRENGÈRE",
+      "comment": "J’ai souscrit à une mutuelle pour mon chien adoré et j’en suis vraiment ravie ! L’inscription est beaucoup plus simple que pour les autres mutuelles et les prix sont vraiment très compétitifs.",
+      "rating": 5
+    },
+    {
+      "name": "JU",
+      "comment": "Je cherchais une assurance habitation pour moi et mon colocataire, et j’ai trouvé cette assurance qui avait un rapport qualité–prix excellent. J’avais auparavant une assurance habitation chez un autre assureur qui me coûtait 2 fois plus…",
+      "rating": 5
+    },
+    {
+      "name": "ISABELLE",
+      "comment": "Inscription en ligne simple et rapide. Grande réactivité et efficacité d’Aymeric pour répondre à mes questions pour compléter les informations d’identification de mon chien.",
+      "rating": 5
+    },
+    {
+      "name": "ELISABETH",
+      "comment": "Très bonne 1ère expérience avec Acheel, simple, efficace et rapide. 2 contrats : habitation et santé, pas de paperasse ils s’occupent de la résiliation de mes anciennes assurances.",
+      "rating": 5
+    },
+    {
+      "name": "CAROLINE",
+      "comment": "Super assurance avec un grand choix de personnalisation et beaucoup de transparence !",
+      "rating": 5
+    }
+  ],
+  "sectionsHeader": "Ne perdez plus votre temps, Acheel est",
+  "sectionsHeaderSpan": "la solution parfaite à portée de clic.",
+  "sections": {
+    "1": {
+      "title": "Pilotez vos contrats",
+      "description": "De n’importe où et à tout moment, accédez à vos documents depuis votre espace client."
+    },
+    "2": {
+      "title": "Personnalisez vos garanties",
+      "description": "En un clic, adaptez votre assurance à vos besoins : choisissez parmi une multitude d’options, ajoutez des bénéficiaires, faites évoluer vos garanties."
+    },
+    "3": {
+      "title": "Suivez vos remboursements",
+      "description": "Déclarez votre sinistre, consultez l’avancée de votre dossier depuis votre interface dédiée et bénéficiez d’un remboursement rapide."
+    }
+  },
+  "detailsHeader": "Adaptée à vos besoins et à votre budget,",
+  "detailsHeaderSpan": "nous avons forcément l’assurance qu’il vous faut.",
+  "details": {
+    "auto": {
+      "title": "Auto",
+      "description": "Protégez votre véhicule et ses conducteurs, selon vos besoins et votre profil.",
+      "price": "8,14€ par mois",
+      "button": "OBTENIR UN TARIF"
+    },
+    "housing": {
+      "title": "Habitation",
+      "description": "Locataire ou propriétaire, protégez votre « home sweet home » et tous ceux qui vous sont chers.",
+      "price": "2,17€ par mois",
+      "button": "OBTENIR UN TARIF"
+    },
+    "health": {
+      "title": "Santé",
+      "description": "Pour vous, votre conjoint ou encore toute la famille, protégez la santé de ceux que vous aimez.",
+      "price": "3,31€ par mois",
+      "button": "OBTENIR UN TARIF"
+    },
+    "pet": {
+      "title": "Chien & Chat",
+      "description": "On sait à quel point votre meilleur compagnon compte à vos yeux. N’hésitez plus, protégez-le !",
+      "price": "2,29€ par mois",
+      "button": "OBTENIR UN TARIF"
+    },
+    "pno": {
+      "title": "PNO",
+      "description": "Une assurance propriétaire non occupant pour votre bien locatif, à prix mini.",
+      "price": "4,30€ par mois",
+      "button": "OBTENIR UN TARIF"
+    },
+    "borrower": {
+      "title": "Emprunteur",
+      "description": "Changez pour une assurance de prêt immobilier moins chère, et réalisez des économies !",
+      "price": "20 000€ économisés",
+      "button": "CALCULER VOS ÉCONOMIES"
+    },
+    "alarm": {
+      "title": "Alarme et Télésurveillance",
+      "description": "Protégez votre logement contre les cambriolages sans vous ruiner !",
+      "price": "14,99€ par mois",
+      "button": "OBTENIR UN TARIF"
+    }
+  },
+  "detailsInfoHeader": "c’est qui, c’est quoi ?",
+  "detailsInfoDescription": "On vous l’a dit, ici plus de bla-bla inutiles, on va à l’essentiel. Alors voilà en quatre points ce que l’on peut vous dire sur nous :",
+  "detailsInfo": {
+    "compagnie": {
+      "title": "Une vraie compagnie d’assurance",
+      "description": "Nous sommes agréés par l’ACPR, qui a vérifié que nous avons les fonds nécessaires pour couvrir vos sinistres. Et pour la petite histoire, nous sommes seulement la troisième compagnie d’assurance à l’être depuis 35 ans #soproud."
+    },
+    "but": {
+      "title": "Notre but ?",
+      "description": "Innover, moderniser et simplifier l’assurance pour vous offrir la meilleure expérience possible au prix le plus juste. Comme vous, on pense qu’à la base l’assurance ce n’est ni très clair, ni très fun et plutôt complexe... mais ça c’était avant Acheel!"
+    },
+    "acteurs": {
+      "title": "Nous sommes suivis par plein d’acteurs...",
+      "description": "Encore mieux que Brad Pitt ou Vincent Cassel et tout aussi glamour, nous sommes soutenus par les plus gros réassureurs du monde (Hannover Re, ...) et par l’iconique Xavier Niel, fondateur de Free (t’as tout compris) qui croît très fort en notre projet."
+    },
+    "francais": {
+      "title": "Des français qui assurent",
+      "description": "Acheel est née en France, de la rencontre d’entrepreneurs français, experts de l’assurance et du web, qui veulent dépoussiérer le monde de l’assurance. Nos bureaux sont en France, et nous sommes ainsi proches de vous en cas de besoin."
+    }
+  },
+  "aideHeader": "Besoin d’aide ? ",
+  "aideHeader2":"On est là !",
+  "aideDescription": "Trouvez la réponse à votre question dans notre FAQ ou échangez avec notre équipe d’experts.",
+  "aide": {
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Trouvez la réponse à votre question dans notre FAQ.",
+      "button": "Consulter la FAQ"
+    },
+    "advisor": {
+      "title": "Parlez à un conseiller",
+      "description": "Vous pouvez poser toutes vos questions ici.",
+      "button": "Poser une question"
+    }
+  },
+  "footer": {
+    "title": "Acheel",
+    "description": "Enfin une assurance qui répond vraiment à vos besoins ! On simplifie, on innove... rien que pour vous.",
+    "disclaimer": "En tant que compagnie d’assurance agréée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR), et dans une démarche de transparence, nous rendons public notre <a href='#'>Rapport sur la Solvabilité et la Situation Financière (Exercice 2023)</a>.",
+    "links": "Politique de confidentialité | Conditions générales | Mentions légales",
+    "linksHeader": "LIENS",
+    "help": "Aide",
+    "blog": "Blog",
+    "joinUs": "Nous rejoindre",
+    "cookieManagement": "Gestion des cookies",
+    "partner": "Devenir partenaire",
+    "contactUs": "Contactez-nous",
+    "rightsReserved": "©2024 Tous droits réservés."
+  }
+}

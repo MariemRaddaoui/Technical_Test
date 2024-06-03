@@ -2,40 +2,41 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import translation from '../../utils/i18next';
 const Comments = () => {
-    const comments = [
-        {
-          name: "CHRISTOPHE",
-          comment: "La folie !!! 5 minutes pour économiser 30€ par mois j’ai pas trouvé mieux! Tout est modulable et bien expliqué. Je recommande !",
-          rating: 5,
-        },
-        {
-          name: "BÉRENGÈRE",
-          comment: "J’ai souscrit à une mutuelle pour mon chien adoré et j’en suis vraiment ravie ! L’inscription est beaucoup plus simple que pour les autres mutuelles et les prix sont vraiment très compétitifs.",
-          rating: 5,
-        },
-        {
-          name: "JU",
-          comment: "Je cherchais une assurance habitation pour moi et mon colocataire, et j’ai trouvé cette assurance qui avait un rapport qualité–prix excellent. J’avais auparavant une assurance habitation chez un autre assureur qui me coûtait 2…",
-          rating: 5,
-        },
-        {
-          name: "ISABELLE",
-          comment: "Inscription en ligne simple et rapide. Grande réactivité et efficacité d’Aymeric pour répondre à mes questions pour compléter les informations d’identification de mon chien.",
-          rating: 5,
-        },
-        {
-          name: "ELISABETH",
-          comment: "Très bonne 1ère expérience avec Acheel, simple, efficace et rapide. 2 contrats : habitation et santé, pas de paperasse ils s’occupent de la résiliation de mes anciennes assurances.",
-          rating: 5,
-        },
-        {
-          name: "CAROLINE",
-          comment: "Super assurance avec un grand choix de personnalisation et beaucoup de transparence !",
-          rating: 5,
-        },
-      ];
+  const comments = [
+    {
+      name: translation('comments[0].name'),
+      comment: translation('comments[0].comment'),
+      rating: 5,
+    },
+    {
+      name: translation('comments[1].name'),
+      comment: translation('comments[1].comment'),
+      rating: 5,
+    },
+    {
+      name: translation('comments[2].name'),
+      comment: translation('comments[2].comment'),
+      rating: 5,
+    },
+    {
+      name: translation('comments[3].name'),
+      comment: translation('comments[3].comment'),
+      rating: 5,
+    },
+    {
+      name: translation('comments[4].name'),
+      comment: translation('comments[4].comment'),
+      rating: 5,
+    },
+    {
+      name: translation('comments[5].name'),
+      comment: translation('comments[5].comment'),
+      rating: 5,
+    },
+  ];
+
   const settings = {
     dots: true,
     infinite: true,
@@ -65,9 +66,9 @@ const Comments = () => {
   return (
     <div className="comments">
       <div className="comments_title">
-        <h1>On ne va pas vous dire qu’on est les meilleurs, <span className="blue-title">mais eux oui.</span></h1>
+        <h1>{translation('commentsTitle')} <span className="blue-title"> {translation('commentsTitle2')} </span></h1>
       </div>
-     
+      
     </div>
   );
 }

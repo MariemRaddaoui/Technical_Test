@@ -4,38 +4,38 @@ import { ReactComponent as TwitterIcon } from '../../Assets/Footer/footer_twitte
 import { ReactComponent as InstagramIcon } from '../../Assets/Footer/footer_instagram.svg';
 import { ReactComponent as YoutubeIcon } from '../../Assets/Footer/footer_youtube.svg';
 import { ReactComponent as LinkedinIcon } from '../../Assets/Footer/footer_linkedin.svg';
-import {ReactComponent as Fintech} from "../../Assets/Footer/fintech-of-the-year.svg";
-import {ReactComponent as Palmares} from "../../Assets/Footer/fintech100.svg"
+import { ReactComponent as Fintech } from "../../Assets/Footer/fintech-of-the-year.svg";
+import { ReactComponent as Palmares } from "../../Assets/Footer/fintech100.svg";
 import future50 from '../../Assets/Footer/future50.png';
 import regionparis from '../../Assets/Footer/regionparis.png';
-import './Footer.css'
-
+import translation from "../../utils/i18next"
+import './Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h2>Acheel</h2>
-          <p className="footer-description">Enfin une assurance qui répond vraiment à vos besoins ! On simplifie, on innove... rien que pour vous.</p>
+          <h2>{translation('footer.title')}</h2>
+          <p className="footer-description">{translation('footer.description')}</p>
           <div className="footer-awards">
-          <img src={future50} alt="Insurtech Insights" />
+            <img src={future50} alt="Insurtech Insights" />
             <img src={regionparis} alt="Paris Region" />
-            <Palmares/>
-           <Fintech/>
+            <Palmares />
+            <Fintech />
           </div>
-          <p className="footer-disclaimer">En tant que compagnie d’assurance agréée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR), et dans une démarche de transparence, nous rendons public notre <a href="#">Rapport sur la Solvabilité et la Situation Financière (Exercice 2023)</a></p>
-          <p className='footer-disclaimer links'><a>Politique de confidentialité </a>| <a>Conditions générales </a>| <a>Mentions légales</a></p>
+          <p className="footer-disclaimer" dangerouslySetInnerHTML={{ __html: translation('footer.disclaimer') }}></p>
+          <p className="footer-disclaimer links" dangerouslySetInnerHTML={{ __html: translation('footer.links') }}></p>
         </div>
         <div className="footer-right">
-          <h3>LIENS</h3>
+          <h3>{translation('footer.linksHeader')}</h3>
           <ul>
-            <li><a href="#">Aide</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Nous rejoindre</a></li>
-            <li><a href="#">Gestion des cookies</a></li>
-            <li><a href="#">Devenir partenaire</a></li>
-            <li><a href="#">Contactez-nous</a></li>
+            <li><a href="#">{translation('footer.help')}</a></li>
+            <li><a href="#">{translation('footer.blog')}</a></li>
+            <li><a href="#">{translation('footer.joinUs')}</a></li>
+            <li><a href="#">{translation('footer.cookieManagement')}</a></li>
+            <li><a href="#">{translation('footer.partner')}</a></li>
+            <li><a href="#">{translation('footer.contactUs')}</a></li>
           </ul>
         </div>
       </div>
@@ -47,7 +47,7 @@ function Footer() {
           <YoutubeIcon />
           <LinkedinIcon />
         </div>
-        <p>©2024 All right reserved.</p>
+        <p>{translation('footer.rightsReserved')}</p>
       </div>
     </footer>
   );

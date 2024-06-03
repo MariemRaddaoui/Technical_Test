@@ -7,21 +7,22 @@ import { ReactComponent as Emprunteur } from "../../Assets/Insurance_types/empru
 import { ReactComponent as Proprietaire } from "../../Assets/Insurance_types/proprietaire.svg";
 import { ReactComponent as Sante } from "../../Assets/Insurance_types/sante.svg";
 import JournalLogos from "./JounalLogos";
+import translation from "../../utils/i18next";
 
 function Tarif() {
     const data = [
-        { title: "Habitation", component: <Habitation />, description: "" },
-        { title: "Auto", component: <Auto />, description: "" },
-        { title: "Santé", component: <Sante />, description: "" },
-        { title: "Chien - Chat", component: <ChienChat />, description: "" },
-        { title: "Propriétaire", component: <Proprietaire />, description: "Non occupant" },
-        { title: "Emprunteur", component: <Emprunteur />, description: "" },
-        { title: "Alarme et Télésurveillance", component: <Alarme />, description: "" }
+        { title: translation('insuranceTypes.habitation'), component: <Habitation />, description: "" },
+        { title: translation('insuranceTypes.auto'), component: <Auto />, description: "" },
+        { title: translation('insuranceTypes.sante'), component: <Sante />, description: "" },
+        { title: translation('insuranceTypes.chienChat'), component: <ChienChat />, description: "" },
+        { title: translation('insuranceTypes.proprietaire'), component: <Proprietaire />, description: translation('insuranceTypes.nonOccupant') },
+        { title: translation('insuranceTypes.emprunteur'), component: <Emprunteur />, description: "" },
+        { title: translation('insuranceTypes.alarme'), component: <Alarme />, description: "" }
     ];
 
     const BoxComponent = ({ title, component, description }) => (
         <div className="box">
-            {title === "Emprunteur" && <div className="nouveau-label">NOUVEAU</div>}
+            {title === translation('insuranceTypes.emprunteur') && <div className="nouveau-label">{translation('insuranceTypes.newLabel')}</div>}
             <div className="box_img">{component}</div>
             <div className="type_title">{title}</div>
             {description && <div className="type_description">{description}</div>}
@@ -44,15 +45,15 @@ function Tarif() {
     return (
         <div className="tarif">
             <div className="tarif-content">
-                <h1>L'assurance <span className="blue-title">simple et accessible</span></h1>
-                <p>Vous trouvez le monde de l’assurance complexe et frustrant ? Nous aussi. Découvrez Acheel, la nouvelle assurance qui vous ressemble.</p>
-                <h3>Consultez nos tarifs</h3>
+                <h1>{translation('tarifTitle')} <span className="blue-title">{translation('tarifTitle2')}</span></h1>
+                <p>{translation('tarifSubtitle')}</p>
+                <h3>{translation('tarifRates')}</h3>
                 <div>
                     <BoxContainer data={data} />
                 </div>
-                <div className="commentaire">Déjà assuré(e) ? No Stress! On s’occupe de résilier votre ancien contrat. <span className="wink_emoji">😉</span></div>
+                <div className="commentaire">{translation('tarifComment')} <span className="wink_emoji">😉</span></div>
                 <div className="journals">
-                    <div className="description">Ils parlent de nous</div>
+                    <div className="description">{translation('tarifPress')}</div>
                     <JournalLogos />
                 </div>
             </div>
