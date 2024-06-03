@@ -1,11 +1,14 @@
 .navbar {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 7px 30px;
     background-color: #fbfdff; 
     color: grey; 
+    width: 100%;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 .navbar-logo img {
@@ -77,12 +80,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 10px 0;
-    z-index: 1;
+    z-index: 1000;
     width: 350px;
 }
 
 .navbar-links .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
 .dropdown-content button {

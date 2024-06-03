@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import { ReactComponent as Logo } from "../Assets/logo-acheel-blue.svg";
+import { ReactComponent as Logo } from "../../Assets/logo-acheel-blue.svg";
 import { FaBars, FaTimes } from 'react-icons/fa'; 
 import { Link } from "react-router-dom";
 import './Navbar.css';
@@ -30,7 +30,7 @@ function Navbar() {
                 </div>
                 <div className="navbar-logo">
                     <Link to='/'> 
-                        <Logo />
+                        <Logo /> 
                     </Link>
                 </div>
                 
