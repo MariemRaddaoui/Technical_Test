@@ -1,0 +1,50 @@
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toggle-text {
+    font-size: 16px;
+    color: #ccc;
+    transition: color 0.3s;
+    margin: 0 10px;
+  }
+  
+  .toggle-text.active {
+    color: rgb(30, 150, 252);
+    font-weight: bold;
+  }
+  
+  .toggle-switch {
+    position: relative;
+    width: 60px;
+    height: 27px;
+    background-color: #ccc;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-switch.light {
+    background-color: #ccc;
+  }
+  
+  .toggle-switch.dark {
+    background-color: rgb(30, 150, 252);
+  }
+  
+  .toggle-ball {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .toggle-switch.dark .toggle-ball {
+    transform: translateX(30px);
+  }
+  

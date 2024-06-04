@@ -1,14 +1,16 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useContext } from 'react';
 import { ReactComponent as Logo } from "../../Assets/logo-acheel-blue.svg";
-import { FaBars, FaTimes } from 'react-icons/fa'; 
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link, useLocation } from "react-router-dom";
 import Flag from 'react-world-flags';
 import './Navbar.css';
 import translation from "../../utils/i18next";
-
+import ThemeToggle from '../Theme/ThemeToggle';
+import ThemeContext from '../Theme/ThemeContext';
 
 function Navbar() {
     const location = useLocation();
+    const { theme } = useContext(ThemeContext);
 
     const changeLanguage = (value) => {
         localStorage.setItem('lang', value);
@@ -68,47 +70,48 @@ function Navbar() {
 
     return (
         <>
-            <nav className="navbar">
+            <nav className={`navbar ${theme}`}>
                 <div className="navbar-menu-icon" onClick={toggleSidebar}>
                     <FaBars />
                 </div>
-                <div className="navbar-logo">
+                <div className="navbar-logo-div">
                     <Link to='/'>
-                        <Logo />
+                        <Logo className='navbar-logo'/>
                     </Link>
                 </div>
-                
-                <ul className="navbar-links">
-                <li>
-                <Link to='/'> <a 
-        className={location.pathname === '/'? 'clicked-link' : 'not-clicked-link'}
-                 >
-                {translation('home')}
-                     </a> </Link>
-                </li>    
-                                <li 
-                        className="dropdown"
-                        onMouseEnter={() => setProductsDropdownVisible(true)}
-                        onMouseLeave={() => setProductsDropdownVisible(false)}
-                        ref={productsDropdownRef}
-                    >
-                        <a className="not-clicked-link" style={{ color: isProductsDropdownVisible ? 'rgb(30, 150, 252)' : 'inherit' }}>{translation('products')}</a>
-                        {isProductsDropdownVisible && (
-                            <div className="dropdown-content">
-                                {submenuItems.map((item, index) => (
-                                    <button key={index}>
-                                        <div className="dropdown-title">{item.title}</div>
-                                        <div className="dropdown-description">{item.description}</div>
-                                    </button>
-                                ))}
-                            </div>
-                        )}
-                    </li>
-                    <li><a className="not-clicked-link">{translation('blog')}</a></li>
-                    <li><a className="not-clicked-link">{translation('help')}</a></li>
-                </ul>
-                
+                <div className="navbar-center">
+                    <ul className="navbar-links">
+                        <li>
+                            <Link to='/'>
+                                <a className={location.pathname === '/' ? 'clicked-link' : 'not-clicked-link'}>
+                                    {translation('home')}
+                                </a>
+                            </Link>
+                        </li>
+                        <li
+                            className="dropdown"
+                            onMouseEnter={() => setProductsDropdownVisible(true)}
+                            onMouseLeave={() => setProductsDropdownVisible(false)}
+                            ref={productsDropdownRef}
+                        >
+                            <a className="not-clicked-link" >{translation('products')}</a>
+                            {isProductsDropdownVisible && (
+                                <div className="dropdown-content">
+                                    {submenuItems.map((item, index) => (
+                                        <button key={index}>
+                                            <div className="dropdown-title">{item.title}</div>
+                                            <div className="dropdown-description">{item.description}</div>
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
+                        </li>
+                        <li><a className="not-clicked-link">{translation('blog')}</a></li>
+                        <li><a className="not-clicked-link">{translation('help')}</a></li>
+                    </ul>
+                </div>
                 <div className='nav-right'>
+                    <ThemeToggle />
                     <div ref={langDropdownRef}>
                         <button className='dropdown-toggle' onClick={handleLangDropdownToggle}>
                             <Flag code={getFlag()} height="15" />
@@ -125,13 +128,13 @@ function Navbar() {
                         )}
                     </div>
                     <div className="navbar-button">
-                    <Link to="/login" onClick={(e) => e.stopPropagation()}>
-    <button>{translation('login')}</button>
-</Link>                    </div>
+                        <Link to="/login" onClick={(e) => e.stopPropagation()}>
+                            <button>{translation('login')}</button>
+                        </Link>
+                    </div>
                 </div>
             </nav>
-
-            <div className={`sidebar ${isSidebarVisible ? 'visible' : ''}`}>
+            <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} ${theme}`}>
                 <div className="sidebar-header close-icon" onClick={toggleSidebar}>
                     <FaTimes />
                 </div>

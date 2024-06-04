@@ -227,5 +227,7 @@
   "dateOfBirthRequired": "La date de naissance est requise",
   "passwordsMismatch": "Les mots de passe ne correspondent pas",
   "invalidEmailPassword": "Adresse e-mail et mot de passe invalides",
-  "incorrectPassword": "Mot de passe incorrect"
+  "incorrectPassword": "Mot de passe incorrect",
+  "light": "Clair",
+  "dark":"Sombre"
 }
