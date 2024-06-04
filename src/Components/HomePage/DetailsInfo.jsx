@@ -40,7 +40,7 @@ const DetailsInfo = () => {
     <div className="details-info">
       <div className="details-info-content">
         <h1>
-          Acheel: <span className="blue-title">{translation('detailsInfoHeader')}</span>
+          Acheel: <span className="pink-title">{translation('detailsInfoHeader')}</span>
         </h1>
         <p className="details-description">{translation('detailsInfoDescription')}</p>
         <InfoBoxContainer data={data} />

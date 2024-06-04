@@ -7,7 +7,7 @@
 }
 
 body.light .footer {
-  background: linear-gradient(135deg, #0b358a, #04144d);
+  background: linear-gradient(135deg, #ff69b4, #ac8096);
 }
 
 body.dark .footer {
@@ -128,11 +128,11 @@ body.dark .footer-bottom p {
 }
 
 body.light .footer-socials {
-  background-color: rgb(224, 191, 8);
+  background-color: #b48732;
 }
 
 body.dark .footer-socials {
-  background-color: #555;
+  background-color: #ff69b4;
 }
 
 .footer-socials svg:hover {

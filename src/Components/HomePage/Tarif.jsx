@@ -45,7 +45,7 @@ function Tarif() {
     return (
         <div className="tarif">
             <div className="tarif-content">
-                <h1>{translation('tarifTitle')} <span className="blue-title">{translation('tarifTitle2')}</span></h1>
+                <h1>{translation('tarifTitle')} <span className="pink-title">{translation('tarifTitle2')}</span></h1>
                 <p>{translation('tarifSubtitle')}</p>
                 <h3>{translation('tarifRates')}</h3>
                 <div>

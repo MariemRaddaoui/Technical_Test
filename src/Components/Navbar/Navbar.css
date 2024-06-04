@@ -20,18 +20,10 @@ body.dark .navbar {
 }
 
 
-.navbar-logo-div .navbar-logo {
-    height: 40px; 
-    fill: #007BFF; /* Default fill color */
+.navbar-logo-div  img {
+    height: 30px; 
 }
 
-body.light .navbar-logo-div .navbar-logo {
-    fill: #007BFF; /* Blue color for light theme */
-}
-
-body.dark .navbar-logo-div .navbar-logo {
-    fill: #fff; /* White color for dark theme */
-}
 .navbar-menu-icon {
     display: none;
     font-size: 1.5em;
@@ -41,7 +33,7 @@ body.dark .navbar-logo-div .navbar-logo {
 }
 
 body.light .navbar-menu-icon {
-    color: rgb(30, 150, 252);
+    color: #ff69b4;
 }
 
 body.dark .navbar-menu-icon {
@@ -55,7 +47,7 @@ body.dark .navbar-menu-icon {
     display: flex;
     list-style: none;
     gap: 40px;
-    transform: translateX(-50%);
+    transform: translateX(-60%);
 }
 
 .navbar-links li {
@@ -72,7 +64,7 @@ body.dark .navbar-menu-icon {
     cursor: pointer;
 }
 body.light .navbar-links .not-clicked-link {
-    color: #62769d;
+    color: #ac8096;
 }
 
 body.dark .navbar-links .not-clicked-link {
@@ -80,7 +72,7 @@ body.dark .navbar-links .not-clicked-link {
 }
 
 body.light .navbar-links .not-clicked-link:hover {
-    color: rgb(30, 150, 252);
+    color: #ff69b4;
 }
 
 body.dark .navbar-links .not-clicked-link:hover {
@@ -88,7 +80,7 @@ body.dark .navbar-links .not-clicked-link:hover {
 }
 
 body.light .navbar-links .clicked-link {
-    color: rgb(30, 150, 252);
+    color: #ff69b4;
 }
 
 body.dark .navbar-links .clicked-link {
@@ -97,7 +89,7 @@ body.dark .navbar-links .clicked-link {
 
 .navbar-button button {
     padding: 10px 20px;
-    background-color: rgb(30, 150, 252);
+    background-color: #ff69b4;
     color: #fbfdff;
     border: none;
     border-radius: 5px;
@@ -111,7 +103,7 @@ body.dark .navbar-button button {
 }
 
 body.light .navbar-button button:hover {
-    background-color: rgb(38, 131, 213);
+    background-color: #ac8096;
 }
 
 body.dark .navbar-button button:hover {
@@ -160,11 +152,11 @@ body.dark .dropdown-content button:hover {
 }
 
 body.light .dropdown-title {
-    color: rgb(30, 150, 252);
+    color: #ff69b4;
 }
 
 body.dark .dropdown-title {
-    color: #007BFF;
+    color: #ff69b4;
 }
 
 .dropdown-description {
@@ -212,7 +204,7 @@ body.dark .dropdown-description {
 }
 
 body.light .sidebar-header {
-    background-color: rgb(30, 150, 252);
+    background-color: #ff69b4;
 }
 
 body.dark .sidebar-header {
@@ -247,7 +239,7 @@ body.dark .close-icon {
 }
 
 body.light .sidebar {
-    background-color: rgb(30, 150, 252);
+    background-color: #ff69b4
 }
 
 body.dark .sidebar {
@@ -385,7 +377,7 @@ body.dark .dropdown-menu {
 }
 
 body.light .dropdown-item {
-    color: rgb(30, 150, 252);
+    color: #ff69b4;
 }
 
 body.dark .dropdown-item {

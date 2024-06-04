@@ -24,7 +24,7 @@ const Sections = () => {
       <div className="sections-header">
         <h1>
           {translation('sectionsHeader')}{" "}
-          <span className="blue-title">{translation('sectionsHeaderSpan')}</span>
+          <span className="pink-title">{translation('sectionsHeaderSpan')}</span>
         </h1>
       </div>
       {sectionsData.map(section => (

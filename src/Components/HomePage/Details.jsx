@@ -57,7 +57,7 @@ const Details = () => {
     <div className="details">
       <div className="details-content">
         <h1>
-          <span className="blue-title">{translation('detailsHeader')}</span>{" "}
+          <span className="pink-title">{translation('detailsHeader')}</span>{" "}
           {translation('detailsHeaderSpan')}
         </h1>
         <BoxContainer data={data} />

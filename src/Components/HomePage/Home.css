@@ -72,8 +72,8 @@ body.dark .home-content h1 {
   color: #ccc;
 }
 
-.blue-title {
-  color: rgb(30 150 252);
+.pink-title {
+  color: #ff69b4;
 }
 
 .home-content p {
@@ -98,11 +98,11 @@ body.dark .home-content p {
 }
 
 body.light .home-content h3 {
-  color: rgb(30 150 252);
+  color: #ff69b4;
 }
 
 body.dark .home-content h3 {
-  color: #007BFF;
+  color: #ff69b4,;
 }
 
 .box-container {
@@ -178,7 +178,7 @@ body.dark .box {
 }
 
 body.light .type_title {
-  color: rgb(8 31 77);
+  color: #ff69b4;
 }
 
 body.dark .type_title {
@@ -339,11 +339,11 @@ body.dark .journals .description {
 }
 
 body.light .feature-title {
-  color: rgb(30, 150, 252);
+  color: #ff69b4;
 }
 
 body.dark .feature-title {
-  color: #007BFF;
+  color: #ff69b4;
 }
 
 .feature-description {
@@ -465,11 +465,11 @@ body.dark .feature-bold {
 }
 
 body.light .section-content h2 {
-  color: rgb(30, 150, 252);
+  color: #ff69b4;
 }
 
 body.dark .section-content h2 {
-  color: #007BFF;
+  color: #ff69b4;
 }
 
 .sections p {
@@ -604,11 +604,11 @@ body.dark .details-box {
 }
 
 body.light .details-title {
-  color: #007BFF;
+  color: #ff69b4;
 }
 
 body.dark .details-title {
-  color: #1e96fc;
+  color: #ff69b4;
 }
 
 .details-description {
@@ -631,11 +631,11 @@ body.dark .details-description {
 }
 
 body.light .details-price {
-  color: #007BFF;
+  color: #ff69b4;
 }
 
 body.dark .details-price {
-  color: #1e96fc;
+  color: #ff69b4;
 }
 
 .details-button {
@@ -650,21 +650,21 @@ body.dark .details-price {
 }
 
 body.light .details-button {
-  background-color: #007BFF;
+  background-color: #ff69b4;
   color: #fff;
 }
 
 body.dark .details-button {
-  background-color: #1e96fc;
+  background-color: #ff69b4;
   color: #333;
 }
 
-.details-button:hover {
-  background-color: #0056b3;
+body.light .details-button:hover{
+  background-color: #ac8096;
 }
 
 body.dark .details-button:hover {
-  background-color: #1a78d2;
+  background-color: #ac8096;
 }
 
 @media (max-width: 1120px) {
@@ -748,11 +748,11 @@ body.dark .details-description {
 }
 
 body.light .details-info-title {
-  color: #007BFF;
+  color: #ff69b4;
 }
 
 body.dark .details-info-title {
-  color: #1e96fc;
+  color: #ff69b4;
 }
 
 .details-info-description {
@@ -796,7 +796,7 @@ body.dark .aide {
 }
 
 body.light .aide h1 {
-  color: rgb(8 31 77);
+  color: #ff69b4;
 }
 
 body.dark .aide h1 {
@@ -849,11 +849,11 @@ body.dark .aide p {
 }
 
 body.light .aide-title {
-  color: #007BFF;
+  color: #ff69b4;
 }
 
 body.dark .aide-title {
-  color: #1e96fc;
+  color: #ff69b4;
 }
 
 .aide-description {
@@ -881,12 +881,12 @@ body.dark .aide-description {
 
 body.light .aide-button {
   background-color: #fff;
-  color: #007BFF;
+  color: #ff69b4;
 }
 
 body.dark .aide-button {
   background-color: #444;
-  color: #1e96fc;
+  color: #ff69b4;
 }
 
 @media (max-width: 768px) {

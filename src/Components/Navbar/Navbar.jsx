@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
-import { ReactComponent as Logo } from "../../Assets/logo-acheel-blue.svg";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link, useLocation } from "react-router-dom";
 import Flag from 'react-world-flags';
@@ -7,6 +6,7 @@ import './Navbar.css';
 import translation from "../../utils/i18next";
 import ThemeToggle from '../Theme/ThemeToggle';
 import ThemeContext from '../Theme/ThemeContext';
+import logo from "../../Assets/Logo2.png";
 
 function Navbar() {
     const location = useLocation();
@@ -68,6 +68,20 @@ function Navbar() {
         };
     }, []);
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
+    const handleLogoClick = (e) => {
+        if (location.pathname === '/') {
+            e.preventDefault();
+            scrollToTop();
+        }
+    };
+
     return (
         <>
             <nav className={`navbar ${theme}`}>
@@ -75,15 +89,18 @@ function Navbar() {
                     <FaBars />
                 </div>
                 <div className="navbar-logo-div">
-                    <Link to='/'>
-                        <Logo className='navbar-logo'/>
+                    <Link to='/' onClick={handleLogoClick}>
+                        <img src={logo} alt="logo" />
                     </Link>
                 </div>
                 <div className="navbar-center">
                     <ul className="navbar-links">
                         <li>
                             <Link to='/'>
-                                <a className={location.pathname === '/' ? 'clicked-link' : 'not-clicked-link'}>
+                                <a 
+                                    className={location.pathname === '/' ? 'clicked-link' : 'not-clicked-link'}
+                                    onClick={handleLogoClick}
+                                >
                                     {translation('home')}
                                 </a>
                             </Link>
@@ -94,7 +111,7 @@ function Navbar() {
                             onMouseLeave={() => setProductsDropdownVisible(false)}
                             ref={productsDropdownRef}
                         >
-                            <a className="not-clicked-link" >{translation('products')}</a>
+                            <a className="not-clicked-link">{translation('products')}</a>
                             {isProductsDropdownVisible && (
                                 <div className="dropdown-content">
                                     {submenuItems.map((item, index) => (

@@ -62,11 +62,11 @@ body.dark .sign-page input {
 }
 
 body.light .sign-page h2 {
-    color: rgb(30, 150, 252);
+    color: #ff69b4;
 }
 
 body.dark .sign-page h2 {
-    color: #1e96fc;
+    color: #ff69b4;
 }
 
 .sign-page button {
@@ -82,12 +82,12 @@ body.dark .sign-page h2 {
 }
 
 body.light .sign-page button {
-    background-color: rgb(30, 150, 252);
+    background-color: #ff69b4;
     color: white;
 }
 
 body.dark .sign-page button {
-    background-color: #1e96fc;
+    background-color: #ff69b4;
     color: #333;
 }
 
@@ -96,11 +96,11 @@ body.dark .sign-page button {
 }
 
 body.light .sign-page button:hover {
-    background-color: #0056b3;
+    background-color: #ac8096;
 }
 
 body.dark .sign-page button:hover {
-    background-color: #1a78d2;
+    background-color: #ac8096;
 }
 
 .error {
@@ -136,11 +136,11 @@ body.dark .success {
 }
 
 body.light .sign-page a {
-    color: rgb(30, 150, 252);
+    color: #ff69b4;
 }
 
 body.dark .sign-page a {
-    color: #1e96fc;
+    color: #ff69b4;
 }
 
 .sign-page a:hover {

@@ -31,7 +31,7 @@ const Aide = () => {
     <div className="aide">
       <div className="aide-content">
         <h1>
-          <span className="blue-title">{translation('aideHeader')}</span>
+          <span className="pink-title">{translation('aideHeader')}</span>
           {translation('aideHeader2')}
         </h1>
         <p className="aide-description">{translation('aideDescription')}</p>
