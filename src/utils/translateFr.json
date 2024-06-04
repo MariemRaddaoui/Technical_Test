@@ -3,7 +3,7 @@
   "products": "Produits",
   "blog": "Blog",
   "help": "Aide",
-  "account": "MON COMPTE",
+  "login": "SE CONNECTER",
   "productItems": {
     "housingInsurance": "Assurance Habitation",
     "carInsurance": "Assurance Auto",
@@ -207,5 +207,25 @@
     "partner": "Devenir partenaire",
     "contactUs": "Contactez-nous",
     "rightsReserved": "©2024 Tous droits réservés."
-  }
+  },
+  "email": "E-mail",
+  "password": "Mot de passe",
+  "confirmPassword": "Confirmez le mot de passe",
+  "signUp": "S'inscrire",
+  "firstName": "Prénom",
+  "lastName": "Nom de famille",
+  "dateOfBirth": "Date de naissance",
+  "dontHaveAccount": "Vous n'avez pas de compte?",
+  "alreadyHaveAccount": "Vous avez déjà un compte?",
+  "loginSuccessful": "Connexion réussie",
+  "signUpSuccessful": "Inscription réussie",
+  "invalidEmail": "Adresse e-mail invalide. Exemple: exemple@domaine.com",
+  "passwordMin": "Le mot de passe doit comporter au moins 8 caractères",
+  "passwordMax": "Le mot de passe doit comporter au maximum 20 caractères",
+  "firstNameRequired": "Le prénom est requis",
+  "lastNameRequired": "Le nom de famille est requis",
+  "dateOfBirthRequired": "La date de naissance est requise",
+  "passwordsMismatch": "Les mots de passe ne correspondent pas",
+  "invalidEmailPassword": "Adresse e-mail et mot de passe invalides",
+  "incorrectPassword": "Mot de passe incorrect"
 }

@@ -3,7 +3,7 @@
   "products": "Products",
   "blog": "Blog",
   "help": "Help",
-  "account": "MY ACCOUNT",
+  "login": "LOGIN",
   "productItems": {
     "housingInsurance": "Housing Insurance",
     "carInsurance": "Car Insurance",
@@ -207,5 +207,26 @@
     "partner": "Become a Partner",
     "contactUs": "Contact Us",
     "rightsReserved": "©2024 All rights reserved."
-  }
+  },
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "signUp": "Sign Up",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "dateOfBirth": "Date of Birth",
+  "dontHaveAccount": "Don't have an account?",
+  "alreadyHaveAccount": "Already have an account?",
+  "loginSuccessful": "Login successful",
+  "signUpSuccessful": "Sign Up successful",
+  "invalidEmail": "Invalid email address. Example: exemple@domaine.com",
+  "passwordMin": "Password must be at least 8 characters long",
+  "passwordMax": "Password must be at max 20 characters long",
+  "firstNameRequired": "First name is required",
+  "lastNameRequired": "Last name is required",
+  "dateOfBirthRequired": "Date of birth is required",
+  "passwordsMismatch": "Passwords do not match",
+  "invalidEmailPassword": "Invalid email and password",
+  "incorrectPassword": "Incorrect password"
+
 }

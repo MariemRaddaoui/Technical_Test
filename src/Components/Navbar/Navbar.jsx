@@ -1,12 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ReactComponent as Logo } from "../../Assets/logo-acheel-blue.svg";
 import { FaBars, FaTimes } from 'react-icons/fa'; 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Flag from 'react-world-flags';
 import './Navbar.css';
 import translation from "../../utils/i18next";
 
+
 function Navbar() {
+    const location = useLocation();
+
     const changeLanguage = (value) => {
         localStorage.setItem('lang', value);
         window.location.reload();
@@ -76,8 +79,14 @@ function Navbar() {
                 </div>
                 
                 <ul className="navbar-links">
-                    <li><a className="clicked-link">{translation('home')}</a></li>
-                    <li 
+                <li>
+                <Link to='/'> <a 
+        className={location.pathname === '/'? 'clicked-link' : 'not-clicked-link'}
+                 >
+                {translation('home')}
+                     </a> </Link>
+                </li>    
+                                <li 
                         className="dropdown"
                         onMouseEnter={() => setProductsDropdownVisible(true)}
                         onMouseLeave={() => setProductsDropdownVisible(false)}
@@ -116,8 +125,9 @@ function Navbar() {
                         )}
                     </div>
                     <div className="navbar-button">
-                        <button>{translation('account')}</button>
-                    </div>
+                    <Link to="/login" onClick={(e) => e.stopPropagation()}>
+    <button>{translation('login')}</button>
+</Link>                    </div>
                 </div>
             </nav>
 
