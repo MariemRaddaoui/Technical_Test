@@ -39,7 +39,7 @@ function Features() {
       <div className="ellipse">
         <img className="mobile_image" src={mobileFeaturesImage} alt="Mobile Features" />
         <h1>
-          Acheel <span className="pink-title">{translation('featuresTitle')}</span>
+          Avektoi <span className="pink-title">{translation('featuresTitle')}</span>
         </h1>
         <div className="features-container">
           {features.map((feature, index) => (

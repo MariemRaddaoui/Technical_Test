@@ -22,10 +22,10 @@
     "loanInsurance": "Changez et économisez jusqu'à 20 000$",
     "alarmMonitoring": "Pour protéger votre foyer des intrusions"
   },
-  "copyrights":"Copyright © 2024 Acheel. Tous droits réservés.",
+  "copyrights":"Copyright © 2024 Avektoi. Tous droits réservés.",
   "tarifTitle": "L'assurance ",
   "tarifTitle2":"simple et accessible",
-  "tarifSubtitle": "Vous trouvez le monde de l’assurance complexe et frustrant ? Nous aussi. Découvrez Acheel, la nouvelle assurance qui vous ressemble.",
+  "tarifSubtitle": "Vous trouvez le monde de l’assurance complexe et frustrant ? Nous aussi. Découvrez Avektoi, la nouvelle assurance qui vous ressemble.",
   "tarifRates": "Consultez nos tarifs",
   "tarifComment": "Déjà assuré(e) ? No Stress! On s’occupe de résilier votre ancien contrat.",
   "tarifPress": "Ils parlent de nous",
@@ -49,7 +49,7 @@
     },
     "flexible": {
       "title": "Flexible et claire",
-      "description": "Oubliez le bla-bla habituel des assureurs. Acheel s’adapte à vos besoins et vous offre",
+      "description": "Oubliez le bla-bla habituel des assureurs. Avektoi s’adapte à vos besoins et vous offre",
       "bold": "les garanties les plus claires."
     },
     "sansFrais": {
@@ -88,7 +88,7 @@
     },
     {
       "name": "ELISABETH",
-      "comment": "Très bonne 1ère expérience avec Acheel, simple, efficace et rapide. 2 contrats : habitation et santé, pas de paperasse ils s’occupent de la résiliation de mes anciennes assurances.",
+      "comment": "Très bonne 1ère expérience avec Avektoi, simple, efficace et rapide. 2 contrats : habitation et santé, pas de paperasse ils s’occupent de la résiliation de mes anciennes assurances.",
       "rating": 5
     },
     {
@@ -97,7 +97,7 @@
       "rating": 5
     }
   ],
-  "sectionsHeader": "Ne perdez plus votre temps, Acheel est",
+  "sectionsHeader": "Ne perdez plus votre temps, Avektoi est",
   "sectionsHeaderSpan": "la solution parfaite à portée de clic.",
   "sections": {
     "1": {
@@ -168,7 +168,7 @@
     },
     "but": {
       "title": "Notre but ?",
-      "description": "Innover, moderniser et simplifier l’assurance pour vous offrir la meilleure expérience possible au prix le plus juste. Comme vous, on pense qu’à la base l’assurance ce n’est ni très clair, ni très fun et plutôt complexe... mais ça c’était avant Acheel!"
+      "description": "Innover, moderniser et simplifier l’assurance pour vous offrir la meilleure expérience possible au prix le plus juste. Comme vous, on pense qu’à la base l’assurance ce n’est ni très clair, ni très fun et plutôt complexe... mais ça c’était avant Avektoi!"
     },
     "acteurs": {
       "title": "Nous sommes suivis par plein d’acteurs...",
@@ -176,7 +176,7 @@
     },
     "francais": {
       "title": "Des français qui assurent",
-      "description": "Acheel est née en France, de la rencontre d’entrepreneurs français, experts de l’assurance et du web, qui veulent dépoussiérer le monde de l’assurance. Nos bureaux sont en France, et nous sommes ainsi proches de vous en cas de besoin."
+      "description": "Avektoi est née en France, de la rencontre d’entrepreneurs français, experts de l’assurance et du web, qui veulent dépoussiérer le monde de l’assurance. Nos bureaux sont en France, et nous sommes ainsi proches de vous en cas de besoin."
     }
   },
   "aideHeader": "Besoin d’aide ? ",
@@ -195,7 +195,7 @@
     }
   },
   "footer": {
-    "title": "Acheel",
+    "title": "Avektoi",
     "description": "Enfin une assurance qui répond vraiment à vos besoins ! On simplifie, on innove... rien que pour vous.",
     "disclaimer": "En tant que compagnie d’assurance agréée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR), et dans une démarche de transparence, nous rendons public notre <a href='#'>Rapport sur la Solvabilité et la Situation Financière (Exercice 2023)</a>.",
     "links": "Politique de confidentialité | Conditions générales | Mentions légales",

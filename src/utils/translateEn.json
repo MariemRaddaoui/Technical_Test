@@ -22,10 +22,10 @@
     "loanInsurance": "Change and save up to $20,000",
     "alarmMonitoring": "To protect your home from intrusions"
   },
-  "copyrights": "Copyright © 2024 Acheel. All rights reserved.",
+  "copyrights": "Copyright © 2024 Avektoi. All rights reserved.",
   "tarifTitle": "Simple and Accessible ",
   "tarifTitle2": "Insurance",
-  "tarifSubtitle": "Do you find the world of insurance complex and frustrating? So do we. Discover Acheel, the new insurance that suits you.",
+  "tarifSubtitle": "Do you find the world of insurance complex and frustrating? So do we. Discover Avektoi, the new insurance that suits you.",
   "tarifRates": "Check our rates",
   "tarifComment": "Already insured? No Stress! We'll take care of canceling your old contract.",
   "tarifPress": "They talk about us",
@@ -49,7 +49,7 @@
     },
     "flexible": {
       "title": "Flexible and clear",
-      "description": "Forget the usual insurer blah-blah. Acheel adapts to your needs and offers you",
+      "description": "Forget the usual insurer blah-blah. Avektoi adapts to your needs and offers you",
       "bold": "the clearest guarantees."
     },
     "sansFrais": {
@@ -88,7 +88,7 @@
     },
     {
       "name": "ELISABETH",
-      "comment": "Very good first experience with Acheel, simple, efficient, and fast. 2 contracts: home and health, no paperwork, they take care of the cancellation of my old insurances.",
+      "comment": "Very good first experience with Avektoi, simple, efficient, and fast. 2 contracts: home and health, no paperwork, they take care of the cancellation of my old insurances.",
       "rating": 5
     },
     {
@@ -97,7 +97,7 @@
       "rating": 5
     }
   ],
-  "sectionsHeader": "Don't waste your time anymore, Acheel is",
+  "sectionsHeader": "Don't waste your time anymore, Avektoi is",
   "sectionsHeaderSpan": "the perfect solution at your fingertips.",
   "sections": {
     "1": {
@@ -168,7 +168,7 @@
     },
     "but": {
       "title": "Our goal?",
-      "description": "Innovate, modernize, and simplify insurance to offer you the best possible experience at the fairest price. Like you, we think that insurance is neither very clear, nor very fun, and rather complex... but that was before Acheel!"
+      "description": "Innovate, modernize, and simplify insurance to offer you the best possible experience at the fairest price. Like you, we think that insurance is neither very clear, nor very fun, and rather complex... but that was before Avektoi!"
     },
     "acteurs": {
       "title": "We are followed by many actors...",
@@ -176,7 +176,7 @@
     },
     "francais": {
       "title": "French people who insure",
-      "description": "Acheel was born in France, from the meeting of French entrepreneurs, experts in insurance and the web, who want to modernize the world of insurance. Our offices are in France, and we are close to you in case of need."
+      "description": "Avektoi was born in France, from the meeting of French entrepreneurs, experts in insurance and the web, who want to modernize the world of insurance. Our offices are in France, and we are close to you in case of need."
     }
   },
   "aideHeader": "Need help?",
@@ -195,7 +195,7 @@
     }
   },
   "footer": {
-    "title": "Acheel",
+    "title": "Avektoi",
     "description": "Finally, an insurance that truly meets your needs! We simplify, we innovate... just for you.",
     "disclaimer": "As an insurance company approved by the Autorité de Contrôle Prudentiel et de Résolution (ACPR), and in a transparency approach, we make our <a href='#'>Solvency and Financial Condition Report (2023)</a> public.",
     "links": "Privacy Policy | Terms and Conditions | Legal Notice",
