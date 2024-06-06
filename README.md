@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Front-End Developer Intern Technical Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my submission for the Front-End Developer Intern Technical Test. Below, you'll find detailed information on the various components and functionalities I have implemented for this project.
 
-## Available Scripts
+## Landing Page
 
-In the project directory, you can run:
+I have developed a landing page that closely follows the layout and styling of Acheel's landing page, utilizing the graphic charter and colors of Avektoi branding. Thanks to the CSS, the landing page is fully responsive, adapting smoothly to both desktop and mobile devices as demonstrated in the demo video.
 
-### `npm start`
+## Multi-Language Support
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website supports multiple languages with a dropdown to select either French or English, dynamically changing the website's language accordingly. For this, I have used the `i18next` library for translations, with `translationFr.json` and `translationEn.json` files storing the respective translations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Login/Sign Up Form
 
-### `npm test`
+### Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Form Fields:** Added a form with multiple fields including email and password.
+- **Form Validation:** Implemented form validation using `zod` to ensure all fields are correctly filled.
+- **Error Messages:** Display error messages for invalid inputs.
+- **Success Message:** Show a success message upon form submission (simulation only; no backend required).
 
-### `npm run build`
+The validation schemas are stored in `utils/validationSchemas.js`. For testing purposes (since we are not using a backend), the login requires using one of the following dummy credentials:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+const dummyData = [
+    { email: "user1@example.com", password: "password123" },
+    { email: "user2@example.com", password: "password456" },
+    { email: "user3@example.com", password: "password789" },
+];
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Integration
+ - **Fetching items:** Fetched a list of items (e.g., blog posts) from a public API (https://jsonplaceholder.typicode.com/posts) and displayed them on the landing page.
+ - **Search Bar:** Implemented a search bar to filter displayed items based on user input.
+ - **Pagination:** Created pagination for the blog section, and each blog post links to a dedicated page for that article.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Both axios and fetch were used for API calls.
 
-### `npm run eject`
+## Animations
+ - **Hover Effects:** Added a simple hover animation to buttons.
+ - **Confetti Animation:** Implemented a confetti animation upon successful login or signup to enhance user experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## State Persistance
+Included a theme toggle (e.g., light/dark mode) and saved the selected theme in local storage to ensure it persists across page reloads.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demo Video
+A demo video (demo.mp4) is included, showcasing the functionalities and responsiveness of the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Challenges Encountered
+While working on the project, I faced some challenges with the CSS and the images used on the website. Many images had a white background, making their manipulation and integration into the design quite difficult.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to Run
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js
+- npm or yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MariemRaddaoui/Technical_Test.git
+   cd Technical_Test
+2. Install dependencies:
+   ```bash
+    npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Running the Application
 
-### Analyzing the Bundle Size
+1. Start the development server:
+   ```bash
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Open your browser and navigate to 'http://localhost:3000' to view the application.
 
-### Making a Progressive Web App
+## Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project was a fantastic opportunity to showcase my skills in React.js and frontend developpement. I hope you find my implementation meets the expectations set forth in the technical test instructions.
 
-### Advanced Configuration
+If you have any questions or need further clarification, feel free to reach out.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Thank you for reviewing my submission!
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+  
+
+
