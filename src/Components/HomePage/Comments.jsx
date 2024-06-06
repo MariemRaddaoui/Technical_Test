@@ -1,38 +1,63 @@
-import React from 'react';
+import React, { useRef , useEffect} from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import translation from '../../utils/i18next';
+
 const Comments = () => {
+  const sliderRef = useRef(null);
+
+  const pauseSlider = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickPause();
+    }
+  };
+
+  const playSlider = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickPlay();
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mouseenter', pauseSlider);
+    document.addEventListener('mouseleave', playSlider);
+
+    return () => {
+      document.removeEventListener('mouseenter', pauseSlider);
+      document.removeEventListener('mouseleave', playSlider);
+    };
+  }, []);
+
   const comments = [
     {
-      name: translation('comments[0].name'),
-      comment: translation('comments[0].comment'),
+      name: translation('comments.caroline.name'),
+      comment: translation('comments.caroline.comment'),
       rating: 5,
     },
     {
-      name: translation('comments[1].name'),
-      comment: translation('comments[1].comment'),
+      name: translation('comments.thierry.name'),
+      comment: translation('comments.thierry.comment'),
       rating: 5,
     },
     {
-      name: translation('comments[2].name'),
-      comment: translation('comments[2].comment'),
+      name: translation('comments.estelle.name'),
+      comment: translation('comments.estelle.comment'),
       rating: 5,
     },
     {
-      name: translation('comments[3].name'),
-      comment: translation('comments[3].comment'),
+      name: translation('comments.lucas.name'),
+      comment: translation('comments.lucas.comment'),
       rating: 5,
     },
     {
-      name: translation('comments[4].name'),
-      comment: translation('comments[4].comment'),
+      name: translation('comments.marie.name'),
+      comment: translation('comments.marie.comment'),
       rating: 5,
     },
     {
-      name: translation('comments[5].name'),
-      comment: translation('comments[5].comment'),
+      name: translation('comments.jean.name'),
+      comment: translation('comments.jean.comment'),
       rating: 5,
     },
   ];
@@ -40,9 +65,13 @@ const Comments = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 10000,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    pauseOnHover: true, 
     responsive: [
       {
         breakpoint: 1024,
@@ -50,14 +79,24 @@ const Comments = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 0,
+          speed: 10000,
+          cssEase: 'linear',
+          pauseOnHover: true,
         }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 0,
+          speed: 10000,
+          cssEase: 'linear',
+          pauseOnHover: true,
         }
       }
     ]
@@ -68,7 +107,30 @@ const Comments = () => {
       <div className="comments_title">
         <h1>{translation('commentsTitle')} <span className="pink-title"> {translation('commentsTitle2')} </span></h1>
       </div>
-      
+      <div className="comments-slider">
+        <Slider ref={sliderRef} {...settings}>
+          {comments.map((comment, index) => (
+            <div
+              key={index}
+              className="comment-box"
+              onMouseEnter={() => sliderRef.current.slickPause()}
+              onMouseLeave={() => sliderRef.current.slickPlay()}
+            >
+              <p>{comment.comment}</p>
+              <div className="commenter-info">
+                <div className="commenter-name">
+                  <div className="commenter-initial">{comment.name[0]}</div>
+                  <div>{comment.name}
+                    <div className="commenter-rating">
+                      {'★'.repeat(comment.rating)}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 }

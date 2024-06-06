@@ -37,12 +37,10 @@ body.dark .sign-page form {
 
 .sign-page input {
     margin-bottom: 10px;
-    margin-left: 15px;
     padding: 8px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 50%;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -77,7 +75,6 @@ body.dark .sign-page h2 {
     font-weight: bold;
     width: 50%;
     margin: 10px auto;
-    margin-bottom: 0px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -145,4 +142,73 @@ body.dark .sign-page a {
 
 .sign-page a:hover {
     text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .sign-page form {
+        width: 40%;
+        padding: 20px;
+    }
+
+    .sign-page input {
+        font-size: 14px;
+    }
+
+    .sign-page h2 {
+        font-size: 26px;
+    }
+
+    .sign-page button {
+        width: 60%;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sign-page form {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .sign-page input {
+        font-size: 12px;
+    }
+
+    .sign-page h2 {
+        font-size: 22px;
+    }
+
+    .sign-page button {
+        width: 70%;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sign-page form {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .sign-page input {
+        font-size: 10px;
+    }
+
+    .sign-page h2 {
+        font-size: 18px;
+    }
+
+    .sign-page button {
+        width: 80%;
+        padding: 5px;
+    }
+
+    .sign-page p {
+        font-size: 12px;
+    }
+
+    .sign-page a {
+        font-size: 12px;
+    }
 }

@@ -65,38 +65,32 @@
   },
   "commentsTitle": "On ne va pas vous dire qu’on est les meilleurs, ",
   "commentsTitle2":"mais eux oui.",
-    "comments": [
-    {
-      "name": "CHRISTOPHE",
-      "comment": "La folie !!! 5 minutes pour économiser 30€ par mois j’ai pas trouvé mieux! Tout est modulable et bien expliqué. Je recommande !",
-      "rating": 5
+  "comments": {
+    "caroline": {
+      "name": "Caroline",
+      "comment": "Super assurance avec un grand choix de personnalisation et beaucoup de transparence !"
     },
-    {
-      "name": "BÉRENGÈRE",
-      "comment": "J’ai souscrit à une mutuelle pour mon chien adoré et j’en suis vraiment ravie ! L’inscription est beaucoup plus simple que pour les autres mutuelles et les prix sont vraiment très compétitifs.",
-      "rating": 5
+    "thierry": {
+      "name": "Thierry",
+      "comment": "Très professionnel, efficace dans leur démarche, merci."
     },
-    {
-      "name": "JU",
-      "comment": "Je cherchais une assurance habitation pour moi et mon colocataire, et j’ai trouvé cette assurance qui avait un rapport qualité–prix excellent. J’avais auparavant une assurance habitation chez un autre assureur qui me coûtait 2 fois plus…",
-      "rating": 5
+    "estelle": {
+      "name": "Estelle",
+      "comment": "Je recommande vivement leurs services, ils ont été très utiles et transparents."
     },
-    {
-      "name": "ISABELLE",
-      "comment": "Inscription en ligne simple et rapide. Grande réactivité et efficacité d’Aymeric pour répondre à mes questions pour compléter les informations d’identification de mon chien.",
-      "rating": 5
+    "lucas": {
+      "name": "Lucas",
+      "comment": "Temps de réponse rapide et personnel très amical."
     },
-    {
-      "name": "ELISABETH",
-      "comment": "Très bonne 1ère expérience avec Avektoi, simple, efficace et rapide. 2 contrats : habitation et santé, pas de paperasse ils s’occupent de la résiliation de mes anciennes assurances.",
-      "rating": 5
+    "marie": {
+      "name": "Marie",
+      "comment": "Prix abordables et excellentes options de couverture."
     },
-    {
-      "name": "CAROLINE",
-      "comment": "Super assurance avec un grand choix de personnalisation et beaucoup de transparence !",
-      "rating": 5
+    "jean": {
+      "name": "Jean",
+      "comment": "J'ai eu une excellente expérience avec leur service client."
     }
-  ],
+  },
   "sectionsHeader": "Ne perdez plus votre temps, Avektoi est",
   "sectionsHeaderSpan": "la solution parfaite à portée de clic.",
   "sections": {

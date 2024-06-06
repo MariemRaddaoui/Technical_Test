@@ -392,6 +392,7 @@ body.dark .feature-bold {
 
 .comments {
   margin-top: 50px;
+  margin-bottom: 80px;
 }
 
 .comments_title {
@@ -399,6 +400,146 @@ body.dark .feature-bold {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
+}
+
+
+.comments_title h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+body.light .comments_title h1 {
+  color: rgb(8, 31, 77);
+}
+
+body.dark .comments_title h1 {
+  color: #ccc;
+}
+
+.pink-title {
+  color: #ff69b4;
+}
+
+.comments-slider {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  align-items: left;
+}
+
+@media (max-width: 1200px) {
+  .comments-slider{
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .comments-slider{
+    max-width: 600px;
+  }
+}
+
+.comment-box {
+  align-items: left;
+text-align: left;
+  padding: 30px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);  text-align: left;
+  margin: 0 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.light .comment-box {
+  background: white;
+}
+
+body.dark .comment-box {
+  background: #444;
+}
+
+
+
+.comment-box p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+body.light .comment-box p {
+  color: rgb(98, 118, 157);
+}
+
+body.dark .comment-box p {
+  color: #bbb;
+}
+
+.commenter-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.commenter-name {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.commenter-initial {
+  background:  #ff69b4;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.commenter-name div:last-child {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+
+.commenter-rating {
+  font-size: 14px;
+  color: #f39c12;
+}
+
+.comment-box:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #ff69b4;
+
+}
+
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li button:before {
+  margin-top: 10px;
+  color: #ff69b4;
+}
+
+body.dark .slick-dots li button:before {
+  margin-top: 10px;
+
+  color: #f39c12;
 }
 
 .sections {
@@ -499,11 +640,6 @@ body.dark .sections p {
   transform: translateY(50%);
 }
 
-@media (max-width: 980px) {
-  .sections {
-      background-image: url("../../Assets/steps_mobile_mockups_001_p_1080.jpeg");
-  }
-}
 
 @media (max-width: 1400px) {
   .section-1 {
@@ -522,6 +658,7 @@ body.dark .sections p {
       width: 25%;
   }
 }
+
 
 @media (max-width: 1200px) {
   .section-1 {

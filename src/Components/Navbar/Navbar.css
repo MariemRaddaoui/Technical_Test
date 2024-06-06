@@ -19,9 +19,10 @@ body.dark .navbar {
     color: white;
 }
 
-
-.navbar-logo-div  img {
-    height: 30px; 
+.navbar-logo-div img {
+    height: 30px;
+    transition: height 0.3s;
+    margin-right: 20px;
 }
 
 .navbar-menu-icon {
@@ -39,10 +40,13 @@ body.light .navbar-menu-icon {
 body.dark .navbar-menu-icon {
     color: white;
 }
+
 .navbar-logo-div {
-    height: 40px;
     flex: 1;
+    display: flex;
+    align-items: center;
 }
+
 .navbar-links {
     display: flex;
     list-style: none;
@@ -60,9 +64,10 @@ body.dark .navbar-menu-icon {
     font-weight: 400;
 }
 
-.navbar-links a:hover{
+.navbar-links a:hover {
     cursor: pointer;
 }
+
 body.light .navbar-links .not-clicked-link {
     color: #ac8096;
 }
@@ -196,6 +201,19 @@ body.dark .dropdown-description {
     }
 }
 
+@media (max-width: 768px) {
+    .navbar-logo-div img {
+        height: 20px; 
+    }
+    .navbar-button button {
+        padding: 8px 16px; 
+        font-size: 8px;
+    }
+    .navbar-menu-icon {
+        font-size: 1.2em; 
+    }
+}
+
 .sidebar-header {
     position: absolute;
     top: 20px;
@@ -239,7 +257,7 @@ body.dark .close-icon {
 }
 
 body.light .sidebar {
-    background-color: #ff69b4
+    background-color: #ff69b4;
 }
 
 body.dark .sidebar {
@@ -298,11 +316,9 @@ body.dark .sidebar-links .not-clicked-link {
     color: #ccc;
 }
 
-body.light .sidebar-links button{
+body.light .sidebar-links button {
     background-color: transparent;
 }
-
-
 
 .sidebar-links button {
     margin-left: -10px;
@@ -312,8 +328,6 @@ body.light .sidebar-links button{
 .sidebar-links button:hover {
     background-color: transparent;
 }
-
-
 
 .sidebar-links .dropdown-content button {
     padding-left: 30px;

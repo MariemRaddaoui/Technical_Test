@@ -65,38 +65,32 @@
   },
   "commentsTitle": "We won't say we're the best,",
   "commentsTitle2":" but they will.",
-  "comments": [
-    {
-      "name": "CHRISTOPHE",
-      "comment": "Amazing!!! 5 minutes to save 30€ per month, I haven't found anything better! Everything is customizable and well explained. I recommend it!",
-      "rating": 5
+  "comments": {
+    "caroline": {
+      "name": "Caroline",
+      "comment": "Great insurance with a wide range of customization options and a lot of transparency!"
     },
-    {
-      "name": "BÉRENGÈRE",
-      "comment": "I signed up for a mutual insurance for my beloved dog and I am really delighted! Registration is much simpler than for other mutuals and the prices are really very competitive.",
-      "rating": 5
+    "thierry": {
+      "name": "Thierry",
+      "comment": "Very professional, efficient in their approach, thank you."
     },
-    {
-      "name": "JU",
-      "comment": "I was looking for home insurance for myself and my roommate, and I found this insurance that had excellent value for money. I previously had home insurance with another insurer that cost me twice as much...",
-      "rating": 5
+    "estelle": {
+      "name": "Estelle",
+      "comment": "Highly recommend their services, they were very helpful and transparent."
     },
-    {
-      "name": "ISABELLE",
-      "comment": "Simple and fast online registration. Aymeric's responsiveness and efficiency in answering my questions to complete my dog's identification information were great.",
-      "rating": 5
+    "lucas": {
+      "name": "Lucas",
+      "comment": "Quick response time and very friendly staff."
     },
-    {
-      "name": "ELISABETH",
-      "comment": "Very good first experience with Avektoi, simple, efficient, and fast. 2 contracts: home and health, no paperwork, they take care of the cancellation of my old insurances.",
-      "rating": 5
+    "marie": {
+      "name": "Marie",
+      "comment": "Affordable prices and excellent coverage options."
     },
-    {
-      "name": "CAROLINE",
-      "comment": "Great insurance with a wide choice of customization and a lot of transparency!",
-      "rating": 5
+    "jean": {
+      "name": "Jean",
+      "comment": "Had a great experience with their customer service."
     }
-  ],
+  },
   "sectionsHeader": "Don't waste your time anymore, Avektoi is",
   "sectionsHeaderSpan": "the perfect solution at your fingertips.",
   "sections": {
@@ -232,5 +226,6 @@
   "dark":"Dark",
   "blog_posts": "Blog Posts",
   "search": "Search"
+  
 
 }
