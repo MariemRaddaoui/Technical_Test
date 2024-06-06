@@ -7,6 +7,7 @@ import LoginPage from './Pages/LoginPage';
 import SignUpPage from './Pages/SignUpPage';
 import ThemeContext from './Components/Theme/ThemeContext';
 import './App.css';
+import PostDetail from './Components/HomePage/PostDetail';
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/post/:id" element={<PostDetail/>}/>
         </Routes>
       </Router>
     </React.Fragment>

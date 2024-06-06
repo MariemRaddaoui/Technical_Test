@@ -279,7 +279,7 @@ body.dark .sidebar .clicked-link {
     border-radius: 0;
     padding: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 body.light .sidebar-links .dropdown-title {
@@ -298,6 +298,12 @@ body.dark .sidebar-links .not-clicked-link {
     color: #ccc;
 }
 
+body.light .sidebar-links button{
+    background-color: transparent;
+}
+
+
+
 .sidebar-links button {
     margin-left: -10px;
     padding: 0px;
@@ -306,6 +312,8 @@ body.dark .sidebar-links .not-clicked-link {
 .sidebar-links button:hover {
     background-color: transparent;
 }
+
+
 
 .sidebar-links .dropdown-content button {
     padding-left: 30px;

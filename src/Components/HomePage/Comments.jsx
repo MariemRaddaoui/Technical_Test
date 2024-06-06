@@ -66,7 +66,7 @@ const Comments = () => {
   return (
     <div className="comments">
       <div className="comments_title">
-        <h1>{translation('commentsTitle')} <span className="pink-title"> {translation('commentsTitle')} </span></h1>
+        <h1>{translation('commentsTitle')} <span className="pink-title"> {translation('commentsTitle2')} </span></h1>
       </div>
       
     </div>

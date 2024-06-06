@@ -229,6 +229,8 @@
   "invalidEmailPassword": "Invalid email and password",
   "incorrectPassword": "Incorrect password",
   "light":"Light",
-  "dark":"Dark"
+  "dark":"Dark",
+  "blog_posts": "Blog Posts",
+  "search": "Search"
 
 }

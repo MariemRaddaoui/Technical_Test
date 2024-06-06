@@ -10,6 +10,7 @@ import Details from "../Components/HomePage/Details";
 import DetailsInfo from "../Components/HomePage/DetailsInfo";
 import Aide from "../Components/HomePage/Aide";
 import Footer from "../Components/Footer/Footer";
+import BlogPosts from "../Components/HomePage/Blog";
 
 function Home() {
     return (
@@ -23,6 +24,7 @@ function Home() {
                <Sections/>
                <Details/>
                <DetailsInfo/>
+               <BlogPosts/>
                <Aide/>
                <Footer/>
             </div>

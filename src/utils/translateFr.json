@@ -229,5 +229,7 @@
   "invalidEmailPassword": "Adresse e-mail et mot de passe invalides",
   "incorrectPassword": "Mot de passe incorrect",
   "light": "Clair",
-  "dark":"Sombre"
+  "dark":"Sombre", 
+  "blog_posts":"Nos Articles",
+  "search": "Recherche"
 }
