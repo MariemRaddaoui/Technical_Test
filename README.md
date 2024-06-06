@@ -70,7 +70,6 @@ If cloning the repository doesn't work, you can download the zip file:
   ```bash
   unzip Technical_Test.zip
   cd Technical_Test
-
    
 2. Install dependencies:
    ```bash
