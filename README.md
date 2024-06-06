@@ -65,11 +65,11 @@ While working on the project, I faced some challenges with the CSS and the image
    cd Technical_Test
 
 If cloning the repository doesn't work, you can download the zip file:
-    - Click on the "Code" button and select "Download ZIP".
-    - Unzip the downloaded file and navigate into the unzipped directory:
-            ```bash
-            unzip Technical_Test.zip
-            cd Technical_Test
+- Click on the "Code" button and select "Download ZIP".
+- Unzip the downloaded file and navigate into the unzipped directory:
+  ```bash
+  unzip Technical_Test.zip
+  cd Technical_Test
 
    
 2. Install dependencies:
