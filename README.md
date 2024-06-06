@@ -21,12 +21,13 @@ The website supports multiple languages with a dropdown to select either French 
 
 The validation schemas are stored in `utils/validationSchemas.js`. For testing purposes (since we are not using a backend), the login requires using one of the following dummy credentials:
 
-```javascript
-const dummyData = [
-    { email: "user1@example.com", password: "password123" },
-    { email: "user2@example.com", password: "password456" },
-    { email: "user3@example.com", password: "password789" },
-];
+    ```javascript
+    const dummyData = [
+        { email: "user1@example.com", password: "password123" },
+        { email: "user2@example.com", password: "password456" },
+        { email: "user3@example.com", password: "password789" },
+    ];
+
 
 ## API Integration
  - **Fetching items:** Fetched a list of items (e.g., blog posts) from a public API (https://jsonplaceholder.typicode.com/posts) and displayed them on the landing page.
