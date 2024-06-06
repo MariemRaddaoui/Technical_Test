@@ -44,7 +44,7 @@ Both axios and fetch were used for API calls.
 Included a theme toggle (e.g., light/dark mode) and saved the selected theme in local storage to ensure it persists across page reloads.
 
 ## Demo Video
-A demo video (demo.mp4) is included, showcasing the functionalities and responsiveness of the website.
+A demo video (demo.mp4) is included, showcasing the functionalities and responsiveness of the website. You need to download it because it's big.
 
 ## Challenges Encountered
 While working on the project, I faced some challenges with the CSS and the images used on the website. Many images had a white background, making their manipulation and integration into the design quite difficult.
